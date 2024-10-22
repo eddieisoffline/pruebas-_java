@@ -15,17 +15,5 @@ public class Principal {
         System.out.println(miPelicula.getTotalDelasEvaluaciones());
         System.out.println(miPelicula.calculaMedia());
 
-
-
-
-
-
-
-
-//        Pelicula otraPelicula = new Pelicula();
-//        otraPelicula.setNombre("Matrix");
-//        otraPelicula.setFechaDeLanzamiento(1998);
-//        otraPelicula.setDuracionEnMinutos(180);
-
     }
 }
