@@ -1,4 +1,5 @@
 import com.aluracursos.Pelicula;
+import com.aluracursos.Series;
 
 public class Principal {
     public static void main(String[] args) {
@@ -14,6 +15,16 @@ public class Principal {
         miPelicula.evalua(7.8);
         System.out.println(miPelicula.getTotalDelasEvaluaciones());
         System.out.println(miPelicula.calculaMedia());
+
+        Series theOffice = new Series();
+
+        theOffice.setNombre("The Office");
+        theOffice.setFechaDeLanzamiento(2005);
+        theOffice.setIncluidoEnElPlan(true);
+        theOffice.setTemporadas(9);
+        theOffice.setEpisodiosPorTemporada(22);
+        theOffice.setMinutosPorEpisodio(22);
+        theOffice.muestraFichaTecnica();
 
     }
 }
